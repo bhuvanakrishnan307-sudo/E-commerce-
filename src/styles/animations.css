@@ -1,0 +1,32 @@
+.fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.slide-in {
+  animation: slideIn 0.6s ease forwards;
+}
+@keyframes slideIn {
+  0% { transform: translateY(20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+.shimmer {
+  background: linear-gradient(to right, #e0e0e0 0%, #f0f0f0 50%, #e0e0e0 100%);
+  animation: shimmer 1.2s infinite;
+  background-size: 200% 100%;
+}
+
+@keyframes shimmer { 100% { background-position: 200% 0; } }
+
+.add-btn {
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.add-btn:hover { box-shadow: 0 0 8px rgba(255,255,255,0.8); }

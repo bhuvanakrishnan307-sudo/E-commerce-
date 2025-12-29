@@ -1,0 +1,5 @@
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 12px 20px; background: linear-gradient(90deg, #2575fc, #6a11cb); color: white; position: sticky; top: 0; z-index: 1000; }
+.nav-logo a { font-size: 24px; font-weight: bold; color: white; }
+.nav-links { display: flex; gap: 20px; list-style: none; }
+.nav-links li a, .user-btn { color: white; transition: 0.3s; }
+.nav-links li a:hover, .user-btn:hover { text-decoration: underline; cursor: pointer; }
